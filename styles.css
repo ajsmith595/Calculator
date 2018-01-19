@@ -1,0 +1,56 @@
+@font-face{
+    src: url("ROADWAY_.ttf");
+    font-family: Roadway;
+}
+
+body, .jumbotron{
+    background-color: #313131;
+}
+
+.jumbotron h1, .jumbotron h3{
+    font-family: Roadway;
+    color: #fff;
+}
+.jumbotron h3{
+    font-variant: small-caps;
+}
+.jumbotron h3 a {
+    text-decoration: none;
+}
+
+.calc-input, .calc-above{
+    font-family: Roadway;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: right;
+}
+.calc-above{
+    color: #a6a6a6 !important;
+}
+
+.calc-input{
+    color: black !important;
+    font-size: 350%;
+    padding: 1%;
+    background-color: white;
+}
+.calc-row{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: .1%;
+    align-items: center;
+}
+
+.calc-row button{
+    font-family: Roadway;
+    font-size: 200%;
+    width: 23%;
+    height: 25%;
+    padding: 2%;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.calc-row button:focus{
+    outline: 0;
+}
